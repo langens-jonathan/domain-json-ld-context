@@ -17,12 +17,12 @@
             "properties": [
                 {
                     "name": "title",
-                    "id": "dct:title",
+                    "iri": "dct:title",
                     "type": "string"
                 },
                 {
                     "name": "description",
-                    "id": "dct:description",
+                    "iri": "dct:description",
                     "type": "string"
                 }
             ],
@@ -30,7 +30,7 @@
                 {
                     "name": "tags",
                     "type": "hasMany",
-                    "id": "ext:tag",
+                    "iri": "ext:tag",
                     "domain": {
                         "id": "Tag"
                     }
@@ -38,7 +38,7 @@
                 {
                     "name": "manufacturer",
                     "type": "belongsTo",
-                    "id": "ext:manufacturer",
+                    "iri": "ext:manufacturer",
                     "domain": {
                         "id": "Company"
                     }
@@ -52,7 +52,7 @@
             "properties": [
                 {
                     "name": "label",
-                    "id": "ext:label",
+                    "iri": "ext:label",
                     "type": "string"
                 }
             ]
@@ -64,12 +64,12 @@
             "properties": [
                 {
                     "name": "name",
-                    "id": "foaf:name",
+                    "iri": "foaf:name",
                     "type": "string"
                 },
                 {
                     "name": "nrOfEmployees",
-                    "id": "ext:nrOfEmployees",
+                    "iri": "ext:nrOfEmployees",
                     "type": "number"
                 }
             ]
