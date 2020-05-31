@@ -1,5 +1,10 @@
 {
-    "@context": "https://raw.githubusercontent.com/langens-jonathan/domain-json-ld-context/master/context.json",
+    "@context": [
+        "https://raw.githubusercontent.com/langens-jonathan/domain-json-ld-context/master/context.json",
+        {
+            "@base": "http://my-local-namespace.com/"
+        }
+    ],
     "version": "1.0.0",
     "resources": [
         {
