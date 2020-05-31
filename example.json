@@ -10,17 +10,16 @@
         {
             "id": "Product",
             "name": "product",
-            "iri": "ext:Product",
             "type": "resource",
             "properties": [
                 {
                     "name": "title",
-                    "iri": "dct:title",
+                    "id": "dct:title",
                     "type": "string"
                 },
                 {
                     "name": "description",
-                    "iri": "dct:description",
+                    "id": "dct:description",
                     "type": "string"
                 }
             ],
@@ -28,7 +27,7 @@
                 {
                     "name": "tags",
                     "type": "hasMany",
-                    "iri": "ext:tag",
+                    "id": "ext:tag",
                     "domain": {
                         "id": "Tag"
                     }
@@ -36,7 +35,7 @@
                 {
                     "name": "manufacturer",
                     "type": "belongsTo",
-                    "iri": "ext:manufacturer",
+                    "id": "ext:manufacturer",
                     "domain": {
                         "id": "Company"
                     }
@@ -46,12 +45,11 @@
         {
             "id": "Tag",
             "name": "tag",
-            "iri": "ext:Tag",
             "type": "resource",
             "properties": [
                 {
                     "name": "label",
-                    "iri": "ext:label",
+                    "id": "ext:label",
                     "type": "string"
                 }
             ]
@@ -59,17 +57,16 @@
         {
             "id": "Company",
             "name": "company",
-            "iri": "ext:Company",
             "type": "resource",
             "properties": [
                 {
                     "name": "name",
-                    "iri": "foaf:name",
+                    "id": "foaf:name",
                     "type": "string"
                 },
                 {
                     "name": "nrOfEmployees",
-                    "iri": "ext:nrOfEmployees",
+                    "id": "ext:nrOfEmployees",
                     "type": "number"
                 }
             ]
