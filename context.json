@@ -1,6 +1,7 @@
 {
     "@context": {
         "@vocab": "http://ext/vocabularies/domain/",
+        "@base": "http://ext/vocabularies/domain/classes/",
         "type": {
             "@id": "@type"
         },
