@@ -1,0 +1,60 @@
+{
+    "@context": {
+        "@vocab": "http://ext/vocabularies/domain/",
+        "type": {
+            "@id": "@type"
+        },
+        "id": {
+            "@id": "@id"
+        },
+        "version": "version",
+        "resources": "definesResource",
+        "name": "skos:prefLabel",
+        "iri": "IRI",
+        "resource": {
+            "@id": "skos:Concept"
+        },
+        "properties": "property",
+        "string": "xsd:string",
+        "number": "xsd:decimal",
+        "boolean": "http://ext/vocabularies/domain/types/boolean/"
+    },
+
+    "version": "1.0.0",
+    "resources": [
+        {
+            "name": "product",
+            "iri": "ext:Product",
+            "type": "resource",
+            "properties": [
+                {
+                    "name": "title",
+                    "iri": "dct:title",
+                    "type": "string"
+                },
+                {
+                    "name": "description",
+                    "iri": "dct:description",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "tag",
+            "iri": "ext:Tag",
+            "type": "resource",
+            "properties": [
+                {
+                    "name": "label",
+                    "iri": "ext:label",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "company",
+            "iri": "ext:Company",
+            "type": "resource"
+        }
+    ]
+}
