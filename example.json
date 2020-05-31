@@ -3,7 +3,9 @@
         "https://raw.githubusercontent.com/langens-jonathan/domain-json-ld-context/master/context.json",
         {
             "@base": "http://my-local-namespace.com/",
-            "ext": "http://my-local-namespace.com/external"
+            "ext": "http://my-local-namespace.com/external/",
+            "dct": "http://purl.org/dc/terms/",
+            "foaf": "http://xmlns.com/foaf/0.1/"
         }
     ],
     "version": "1.0.0",
