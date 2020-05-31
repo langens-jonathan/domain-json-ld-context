@@ -17,6 +17,20 @@
                     "iri": "dct:description",
                     "type": "string"
                 }
+            ],
+            "relationships": [
+                {
+                    "name": "tags",
+                    "type": "hasMany",
+                    "iri": "ext:tag",
+                    "target": "tag"
+                },
+                {
+                    "name": "manufacturer",
+                    "type": "belongsTo",
+                    "iri": "ext:manufacturer",
+                    "target": "company"
+                }
             ]
         },
         {
@@ -34,7 +48,19 @@
         {
             "name": "company",
             "iri": "ext:Company",
-            "type": "resource"
+            "type": "resource",
+            "properties": [
+                {
+                    "name": "name",
+                    "iri": "foaf:name",
+                    "type": "string"
+                },
+                {
+                    "name": "nrOfEmployees",
+                    "iri": "ext:nrOfEmployees",
+                    "type": "number"
+                }
+            ]
         }
     ]
 }

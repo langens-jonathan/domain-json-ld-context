@@ -7,16 +7,25 @@
         "id": {
             "@id": "@id"
         },
+
         "version": "version",
-        "resources": "definesResource",
+
         "name": "skos:prefLabel",
         "iri": "IRI",
+
+        "resources": "definesResource",
         "resource": {
             "@id": "skos:Concept"
         },
+
         "properties": "property",
         "string": "xsd:string",
         "number": "xsd:decimal",
-        "boolean": "http://ext/vocabularies/domain/types/boolean/"
+        "boolean": "http://ext/vocabularies/domain/types/boolean/",
+
+        "relationships": "relationship",
+        "belongsTo": "belongsTo",
+        "hasMany": "hasMany",
+        "target": "rdfs:domain"
     }
 }
