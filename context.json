@@ -2,6 +2,9 @@
     "@context": {
         "@vocab": "http://ext/vocabularies/domain/",
         "@base": "http://ext/vocabularies/domain/classes/",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
         "type": {
             "@id": "@type"
         },
