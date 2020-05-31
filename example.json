@@ -3,6 +3,7 @@
     "version": "1.0.0",
     "resources": [
         {
+            "id": "Product",
             "name": "product",
             "iri": "ext:Product",
             "type": "resource",
@@ -23,17 +24,22 @@
                     "name": "tags",
                     "type": "hasMany",
                     "iri": "ext:tag",
-                    "target": "tag"
+                    "domain": {
+                        "id": "Tag"
+                    }
                 },
                 {
                     "name": "manufacturer",
                     "type": "belongsTo",
                     "iri": "ext:manufacturer",
-                    "target": "company"
+                    "domain": {
+                        "id": "Company"
+                    }
                 }
             ]
         },
         {
+            "id": "Tag",
             "name": "tag",
             "iri": "ext:Tag",
             "type": "resource",
@@ -46,6 +52,7 @@
             ]
         },
         {
+            "id": "Company",
             "name": "company",
             "iri": "ext:Company",
             "type": "resource",

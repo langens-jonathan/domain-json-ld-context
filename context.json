@@ -27,6 +27,6 @@
         "relationships": "relationship",
         "belongsTo": "belongsTo",
         "hasMany": "hasMany",
-        "target": "rdfs:domain"
+        "domain": "rdfs:domain"
     }
 }
