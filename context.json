@@ -1,20 +1,22 @@
 {
-    "@vocab": "http://ext/vocabularies/domain/",
-    "type": {
-        "@id": "@type"
-    },
-    "id": {
-        "@id": "@id"
-    },
-    "version": "version",
-    "resources": "definesResource",
-    "name": "skos:prefLabel",
-    "iri": "IRI",
-    "resource": {
-        "@id": "skos:Concept"
-    },
-    "properties": "property",
-    "string": "xsd:string",
-    "number": "xsd:decimal",
-    "boolean": "http://ext/vocabularies/domain/types/boolean/"
+    "@context": {
+        "@vocab": "http://ext/vocabularies/domain/",
+        "type": {
+            "@id": "@type"
+        },
+        "id": {
+            "@id": "@id"
+        },
+        "version": "version",
+        "resources": "definesResource",
+        "name": "skos:prefLabel",
+        "iri": "IRI",
+        "resource": {
+            "@id": "skos:Concept"
+        },
+        "properties": "property",
+        "string": "xsd:string",
+        "number": "xsd:decimal",
+        "boolean": "http://ext/vocabularies/domain/types/boolean/"
+    }
 }

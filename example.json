@@ -1,25 +1,5 @@
 {
-    "@context": {
-        "@vocab": "http://ext/vocabularies/domain/",
-        "type": {
-            "@id": "@type"
-        },
-        "id": {
-            "@id": "@id"
-        },
-        "version": "version",
-        "resources": "definesResource",
-        "name": "skos:prefLabel",
-        "iri": "IRI",
-        "resource": {
-            "@id": "skos:Concept"
-        },
-        "properties": "property",
-        "string": "xsd:string",
-        "number": "xsd:decimal",
-        "boolean": "http://ext/vocabularies/domain/types/boolean/"
-    },
-
+    "@context": "https://raw.githubusercontent.com/langens-jonathan/domain-json-ld-context/master/context.json",
     "version": "1.0.0",
     "resources": [
         {
