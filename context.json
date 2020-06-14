@@ -31,6 +31,8 @@
         "relationships": "relationship",
         "belongsTo": "belongsTo",
         "hasMany": "hasMany",
-        "domain": "rdfs:domain"
+        "domain": "rdfs:domain",
+
+        "prefixes": "prefixes"
     }
 }
